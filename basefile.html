@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+    h1 { color: #4a90e2; }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 20px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background: #4a90e2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <img src="/api/placeholder/150/50" alt="logo">
+    <h1>Sample Company</h1>
+    <div>Personal Details</div>
+    <div>
+      Name
+      <input type="text">
+    </div>
+    <div>
+      Email
+      <input type="text">
+    </div>
+    <div>
+      Phone
+      <input type="text">
+    </div>
+    <div>
+      DOB
+      <input type="text">
+    </div>
+    <button onclick="alert('Form submitted!')">Submit</button>
+  </div>
+</body>
+</html>
