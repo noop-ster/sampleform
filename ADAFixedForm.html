@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+    h1 { color: #4a90e2; }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 20px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      background: #4a90e2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <img src="/api/placeholder/150/50" alt="Sample Company Logo" tabindex="0">
+    <h1>Sample Company</h1>
+    <div>Personal Details</div>
+    <div>
+      <label for="inputName"> Name</lable>
+      <input id="inputName" type="text">
+    </div>
+    <div>
+      <label for="inputEmail">Email</lable>
+      <input id="inputEmail" type="text">
+    </div>
+    <div>
+        <label for="inputPhone">Phone</lable>
+      <input id="inputPhone" type="text">
+    </div>
+    <div>
+     <label for="inputDOB">DOB</lable> 
+      <input id="inputDOB" type="text">
+    </div>
+    <button onclick="alert('Form submitted!')">Submit</button>
+  </div>
+</body>
+</html>
